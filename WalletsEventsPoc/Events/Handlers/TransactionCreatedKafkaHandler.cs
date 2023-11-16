@@ -4,6 +4,8 @@ using WalletEventsPoc.Common.Kafka;
 
 namespace WalletEventsPoc.Events.Handlers;
 
+// Record is needed because we compare handlers in dispatcher
+// to avoid register two of the same one.
 public record TransactionCreatedKafkaHandler : IEventHandler
 {
     public KafkaProducer KafkaProducer { get; private set; }
