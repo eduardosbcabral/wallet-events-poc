@@ -12,7 +12,8 @@ var services = builder.Services;
 var kafkaProducer = new KafkaProducer();
 var rabbitProducer = new RabbitMqProducer();
 var eventDispatcher = new EventDispatcher();
-eventDispatcher.Register("TransactionCreated", new TransactionCreatedKafkaHandler(kafkaProducer, rabbitProducer));
+eventDispatcher.Register("TransactionCreated", new TransactionCreatedKafkaHandler(kafkaProducer));
+eventDispatcher.Register("TransactionCreated", new TransactionCreatedRabbitHandler(rabbitProducer));
 eventDispatcher.Register("BalanceUpdated", new BalanceUpdatedKafkaHandler(kafkaProducer));
 
 services.AddSingleton<IEventDispatcher>(eventDispatcher);
