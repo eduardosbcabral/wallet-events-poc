@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletEventsPoc", "WalletsEventsPoc\WalletEventsPoc.csproj", "{FB621795-B9F2-4323-AE6A-B4CD0A5B839A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletsEventsPoc.Tests", "WalletsEventsPoc.Tests\WalletsEventsPoc.Tests.csproj", "{FC8BECFB-50CE-4657-9F48-170C502399B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB621795-B9F2-4323-AE6A-B4CD0A5B839A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB621795-B9F2-4323-AE6A-B4CD0A5B839A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB621795-B9F2-4323-AE6A-B4CD0A5B839A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB621795-B9F2-4323-AE6A-B4CD0A5B839A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8BECFB-50CE-4657-9F48-170C502399B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8BECFB-50CE-4657-9F48-170C502399B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8BECFB-50CE-4657-9F48-170C502399B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8BECFB-50CE-4657-9F48-170C502399B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {113111A0-3903-47B7-8F55-DDC73F966411}
+	EndGlobalSection
+EndGlobal
